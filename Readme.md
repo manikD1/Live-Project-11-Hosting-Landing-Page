@@ -42,9 +42,9 @@
 &nbsp;
 ***
 ## **🔥Netlify Live Link🔥**
-- [Hosting Landing Page]()
+- [Hosting Landing Page](https://live-proj-11-fullstackjsbootcamp.netlify.app/)
 
 &nbsp;
 ***
 ## **📷 Post Designing Screenshot 📷**
-![]()
+![](https://github.com/manikD1/Live-Project-11-Hosting-Landing-Page/blob/main/Actual-Screenshot.JPG)
