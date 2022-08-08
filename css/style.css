@@ -79,6 +79,7 @@ li{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 250px;
+    flex-wrap: wrap-reverse;
 }
 
 /* .intro-info{
@@ -451,4 +452,311 @@ span{
     color: #000000;
     font-size: 30px;
     margin-right: 10px;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1500px){
+
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 0;
+        flex-grow: 0;
+    }
+
+    .list{
+        margin: 2em 0;
+    }
+
+    .btn-margin{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .pricing{        
+        height: 2400px;        
+    }
+
+    .pricing-pack{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack{
+        margin: 2em 0;
+    }
+
+}
+
+@media (max-width: 1020px){
+
+    .logo{
+        font-size: 5em;
+    }
+
+    .list-item{
+        font-size: 1em;
+    }
+
+    .btn-margin{
+        font-size: 1em;
+    }
+
+    .heading-intro{
+        font-size: 3em;
+    }
+
+    .heading{
+        font-size: 3em;
+    }
+
+    .meaning{
+        font-size: 1em;
+        width: 500px;
+    }
+
+    .btn-blue{
+        font-size: 1em;
+    }
+
+    .intro-pic img{
+        width: 400px;
+    }
+
+    .intro{        
+        justify-content: center;     
+        align-items: center;  
+        flex-direction: column-reverse; 
+        text-align: center;
+    }    
+
+    .intro-info{
+        margin-left: 0;
+    }
+
+    .intro-info-opposite{
+        margin-right: 0;
+    }
+
+    .intro-pic{
+        margin-right: 0;
+    }
+
+    .intro-pic-opposite{
+        margin-left: 0;
+    }
+
+    .service-head{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-heading{
+        font-size: 1.5em;
+        margin: 1em 0;
+    }
+
+    .service-meaning{
+        font-size: 0.8em;
+        width: 300px;
+    }
+
+    .service-pic{
+        width: 4em;
+        position: relative;
+        left: 40%;
+    }
+
+    .service-types-inner{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .heading-white{
+        width: 500px;
+        text-align: center;
+    }
+
+    .pack{
+        padding: 0 0px 120px;
+        height: 520px;
+    }
+
+    .pack-heading{
+        font-size: 1.5em;
+    }
+
+    .pack-info{
+        font-size: 1em;
+    }
+
+    .pack-list-item{
+        font-size: 0.8em;
+    }
+
+    .pack-list{
+        width: 250px;
+    }
+
+    .price{
+        font-size: 1.5em;
+    }
+
+    .cancel{
+        font-size: 0.8em;
+    }
+
+    .btn-plain{
+        font-size: 1em;
+    }
+
+    .pack-hat{
+        width: 300px;
+    }
+
+    .pack{
+        width: 340px;
+        height: 500px;
+    }
+
+    .customer-info{
+        font-size: 0.8em;
+        width: 240px;
+    }
+
+    .customer-small{
+        width: 250px;
+    }
+
+    .dot{
+        font-size: 3em;
+    }
+
+    .customer-name{
+        font-size: 1em;
+    }
+
+    .customer-company{
+        font-size: 0.8em;
+    }
+
+    .farewell{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list{
+        margin: 2em 0;
+    }
+
+}
+
+
+@media (max-width: 700px){
+
+    .list-item{
+        margin: 1em 0;
+    }
+
+    .list{
+        flex-direction: column;
+    }
+
+    .heading-intro{
+        font-size: 1.8em;
+        width: 300px;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 1.8em;
+    }
+
+    .meaning{
+        font-size: 0.8em;
+        width: 300px;
+    }
+
+    .intro-pic img{
+        width: 300px;
+    }
+   
+
+    .intro-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-types{
+        margin-left: 0;
+    }
+
+    .service-types-inner{        
+        margin-right: 0;
+    }
+
+    .heading-white{
+        width: 300px;
+    }
+
+
+    .pack-hat{
+        width: 260px;
+    }
+
+    .pack{
+        width: 300px;
+    }
+
+    .customer-info{
+        width: 200px;
+    }
+
+    .customer-small{
+        width: 200px;
+    }
+
+    .dot{
+        font-size: 3em;
+    }
+
+    .customer-name{
+        font-size: 1em;
+    }
+
+    .customer-company{
+        font-size: 0.8em;
+    }
+
+    .farewell{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list{
+        margin: 2em 0;
+    }
+
 }
